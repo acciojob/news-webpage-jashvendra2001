@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.news-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-news {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.side-news {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+}
+
+article {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
